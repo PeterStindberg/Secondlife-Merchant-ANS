@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost", "id15958800_slmarketplace", "-grWWdCrTaHoP5xx", "id15958800_marketplace") or die(mysql_error());
+$con=mysqli_connect("localhost", "username", "password", "database") or die(mysql_error());
 
 $result = mysqli_query($con,"SELECT * FROM ANS");
 
