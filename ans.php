@@ -1,7 +1,7 @@
 <?php
 
-$con=mysql_connect("localhost", "id15958800_slmarketplace", "-grWWdCrTaHoP5xx") or die(mysql_error());
-mysql_select_db("id15958800_marketplace",$con) or die(mysql_error());
+$con=mysql_connect("localhost", "username", "password") or die(mysql_error());
+mysql_select_db("database",$con) or die(mysql_error());
 
 $tTransactionID = $_GET['TransactionID'];
 $Timestamp = gmdate("M d Y H:i:s",mktime());
